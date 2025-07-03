@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    /* Resetting default browser styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Correcting the box-sizing value */
+    list-style: none;
+    text-decoration: none;
+    font-family: "Comic Sans MS", sans-serif; /* Fixed font name */
+}
+
+/* Body styling */
+body {
+    background: #000;
+    color: #fff;
+}
+
+/* Header section styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 12px;
+}
+
+/* Navbar styling */
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* Navbar link hover effect */
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+/* Button styling */
+.button {
+    margin-right: 20px;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1.4px solid white;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    color: #fff;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+
+}
+
+
+
+.hero .hero-content{
+    margin-left: 150px; 
+    margin-top: 40px;
+
+}
+.hero .hero-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    /*color: yellowgreen;*/
+}
+.hero .hero-content h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+
+}
+
+.hero .hero-content p{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(208, 164, 164);
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#btn{
+    width: 160px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 12px white;
+    background-color: transparent;
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s
+    ;
+}
+#btn:hover{
+    scale: 1.1;
+    box-shadow: 0 22px 30px yellowgreen;
+}
+
+.hero  .image{
+    width: 370px;
+    height: 370px;
+    background-color: transparent;
+    box-shadow: 0 22px 30px white ;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-right: 110px;
+    margin-top: 20px;
+}
+.hero .image img{
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+}
+.social-media{
+    position: fixed;
+    bottom: 0;
+    background: transparent;
+   /* border: 1.1px solid white;  */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.social-media li{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.1px solid white;
+    border-radius: 50px;
+    outline: none;
+cursor: pointer;    
+
+
+}
+.social-media li:hover{
+    scale:1.1;
+    box-shadow: 0 20px 30px yellowgreen;
+
+
+}
+.social-media li i{
+    font-size: 25px;
+
+
+}
+.btn:hover{
+    box-shadow: 0 22px 30px white;
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Aayush.</div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+        <div class="button">
+            <button class="btn">Hire me</button>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="hero-content">
+
+            <h4>hello,</h4>
+            <h1> I'm Aayush Ganesh Kushwah</h1>
+            <h2>Frontent Developer</h2>
+            <p>Welcome to my portfolio! I am Aayush Ganesh Kushwah, a passionate Frontend Developer with a knack for creating visually stunning and user-friendly websites. With a solid foundation in modern web technologies, I strive to deliver high-quality, responsive designs that enhance user experience. My journey is all about constant learning, innovation, and turning creative ideas into functional, dynamic web applications. Let's build something amazing together!</p>
+
+            <button id="btn">Download Resume</button>
+
+        </div>
+        <div class="image"><img src="c:\Users\Aayush kushwah\Downloads\WhatsApp Image 2025-01-13 at 9.42.44 PM.jpeg"
+                alt="portfolio Image"></div>
+        <div class="social-media">
+            <li><a href="https://www.facebook.com/aayush.kushwah.7739"><i class="fa-brands fa-facebook-f"></a></i>
+            <li><a href="https://www.instagram.com/aayush.18_7/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><i class="fa-brands fa-github"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
